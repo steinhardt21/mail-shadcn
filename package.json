@@ -27,6 +27,8 @@
     "@trpc/server": "^10.43.6",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "google-auth-library": "^9.4.1",
+    "googleapis": "^130.0.0",
     "lucide-react": "^0.307.0",
     "next": "^14.0.4",
     "next-auth": "^4.24.5",
