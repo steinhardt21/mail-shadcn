@@ -1,12 +1,7 @@
-import { z } from "zod";
 import { google, type gmail_v1 } from "googleapis";
 import { OAuth2Client } from 'google-auth-library';
 
-import {
-  createTRPCRouter,
-  protectedProcedure,
-} from "~/server/api/trpc";
-
+import { createTRPCRouter, protectedProcedure} from "~/server/api/trpc";
 
 export const mailRouter = createTRPCRouter({
   getLastThreads: protectedProcedure
